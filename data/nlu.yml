@@ -1,0 +1,135 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: thank
+    examples: |
+      - thanks
+      - thank you
+      - thank you very much
+      - thanks a lot
+      - appreciate it
+      - much thanks
+
+  - intent: knowRights
+    examples: |
+      - what are my rights
+      - tell me about my rights
+      - tell me something about my rights
+      - what are the rights of a citizen
+
+  - intent: fundamentalRights
+    examples: |
+      - what are fundamental rights
+      - tell me about fundamental rights
+      - tell me something about fundamental rights
+      - what are the fundamental rights of a citizen
+
+  - intent: rightToFreedom
+    examples: |
+      - freedom
+      - right to freedom
+      - what is right to freedom
+      - tell me about right to freedom
+      - tell me something about right to freedom
+      - what is the right to freedom of a citizen
+
+  - intent: article14
+    examples: |
+      - what is article 14
+      - tell me about article 14
+      - tell me something about article 14
+      - what does article 14 say
+      - article 14
+
+  - intent: article15
+    examples: |
+      - what is article 15
+      - tell me about article 15
+      - tell me something about article 15
+      - what does article 15 say
+      - article 15
+
+  - intent: article16
+    examples: |
+      - what is article 16
+      - tell me about article 16
+      - tell me something about article 16
+      - what does article 16 say
+      - article 16
+
+  - intent: article17
+    examples: |
+      - what is article 17
+      - tell me about article 17
+      - tell me something about article 17
+      - what does article 17 say
+      - article 17
+
+  - intent: article18
+    examples: |
+      - what is article 18
+      - tell me about article 18
+      - tell me something about article 18
+      - what does article 18 say
+      - article 18
+
+  - intent: article19
+    examples: |
+      - what is article 19
+      - tell me about article 19
+      - tell me something about article 19
+      - what does article 19 say
+      - article 19
+
+  - intent: article20
+    examples: |
+      - what is article 20
+      - tell me about article 20
+      - tell me something about article 20
+      - what does article 20 say
+      - article 20
+
+  - intent: article21
+    examples: |
+      - what is article 21
+      - tell me about article 21
+      - tell me something about article 21
+      - what does article 21 say
+      - article 21
+
+  - intent: article22
+    examples: |
+      - what is article 22
+      - tell me about article 22
+      - tell me something about article 22
+      - what does article 22 say
+      - article 22

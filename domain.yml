@@ -1,0 +1,72 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thank
+  - knowRights
+  - fundamentalRights
+  - rightToFreedom
+  - rightToEquality
+  - article14
+  - article15
+  - article16
+  - article17
+  - article18
+  - article19
+  - article20
+  - article21
+  - article22
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_thanks:
+    - text: "You are welcome cutie!"
+
+  utter_about_rights:
+    - text: "Sure! I will tell you. Which right of the following do you want to know about? For example, Fundamental rights, banking rights, legal rights, etc."
+
+  utter_fundamental_rights:
+    - text: "Okay, here are your fundamental rights as a citizen of India:\n 1. Right to Equality (Articles 14–18)\n 2. Right to Freedom (Articles 19–22)\n 3. Right against Exploitation (Articles 23–24)\n 4. Right to Freedom of Religion (Articles 25–28)\n 5. Cultural and Educational Rights (Articles 29–30)\n 6. Right to Constitutional Remedies (Article 32)\n Which one would you like to know more about?"
+
+  utter_right_to_freedom:
+    - text: "Here are the details of the Right to Freedom:\n 1. Freedom of Speech, Expression, etc. (Article 19)\n 2. Protection in respect of conviction for offences (Article 20)\n 3. Protection of life and personal liberty (Article 21)\n 4. Right to education (Article 21A)\n 5. Protection against arrest and detention in certain cases (Article 22)\n Which article would you like to explore?"
+
+  utter_right_to_equality:
+    - text: "The Right to Equality includes the following:\n 1. Equality before law and equal protection of laws (Article 14)\n 2. Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth (Article 15)\n 3. Equality of opportunity in matters of public employment (Article 16)\n 4. Abolition of untouchability (Article 17)\n 5. Abolition of titles (Article 18)\n Which article do you want to learn about?"
+
+  utter_article14:
+    - text: "Article 14 provides for equality before the law and equal protection of the laws within the territory of India. It ensures that individuals are treated equally in similar circumstances."
+
+  utter_article15:
+    - text: "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. It also allows for special provisions for women, children, and backward classes."
+
+  utter_article16:
+    - text: "Article 16 guarantees equality of opportunity in matters of public employment. It prohibits discrimination in employment or appointment to any office under the state."
+
+  utter_article17:
+    - text: "Article 17 abolishes untouchability and forbids its practice in any form. It also makes it a punishable offense under Indian law."
+
+  utter_article18:
+    - text: "Article 18 abolishes titles except for academic or military distinctions. It also prohibits Indian citizens from accepting titles from foreign states."
+
+  utter_article19:
+    - text: "Article 19 ensures certain freedoms to citizens, including freedom of speech and expression, assembly, association, movement, residence, and profession, with reasonable restrictions."
+
+  utter_article20:
+    - text: "Article 20 provides protection against arbitrary conviction and prohibits double jeopardy, retrospective punishment, and self-incrimination."
+
+  utter_article21:
+    - text: "Article 21 guarantees the protection of life and personal liberty. It ensures that no one shall be deprived of their life or personal liberty except according to procedure established by law."
+
+  utter_article22:
+    - text: "Article 22 provides protection against arbitrary arrest and detention. It outlines rights for preventive and punitive detention and safeguards to ensure proper legal procedures."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

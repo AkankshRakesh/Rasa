@@ -1,0 +1,38 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: express thanks
+    steps:
+      - intent: thank
+      - action: utter_thanks
+
+  - story: know fundamental rights - freedom
+    steps:
+      - intent: knowRights
+      - action: utter_about_rights
+      - intent: fundamentalRights
+      - action: utter_fundamental_rights
+      - intent: rightToFreedom
+      - action: utter_right_to_freedom
+
+  - story: article details - freedom
+    steps:
+      - intent: knowRights
+      - action: utter_about_rights
+      - intent: fundamentalRights
+      - action: utter_fundamental_rights
+      - intent: rightToFreedom
+      - action: utter_right_to_freedom
+      - intent: article19
+      - action: utter_article19
+      - intent: article20
+      - action: utter_article20
+      - intent: article21
+      - action: utter_article21
+      - intent: article22
+      - action: utter_article22
