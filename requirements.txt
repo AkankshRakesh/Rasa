@@ -1,2 +1,2 @@
-rasa==3.1
-python==3.10.11
+rasa
+python-3.10.11
